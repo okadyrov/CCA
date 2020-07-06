@@ -1,0 +1,17 @@
+{
+  "general": {
+    "header": "h1",
+    "totalResult": "h3.total-count",
+    "addNameField": "[name='name']",
+    "addNameFieldLabel": "label",
+    "defaultValueField": "",
+    "defaultValueFieldLabel": "",
+    "addCounterBtn": ""
+  },
+  "counter": {
+    "counterName": "",
+    "lowerLimitField": "",
+    "upperLimitField": "",
+    "countValue": ""
+  }
+}
