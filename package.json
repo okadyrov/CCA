@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "wdio wdio.conf.js",
-    "test": "npm run clean && wdio wdio.conf.js",
+    "test": "npm run clean && wdio wdio.conf.js && npm run report",
     "report": "allure generate --clean && allure open",
-    "clean": "rm -rf allure-results"
+    "clean": "rimraf allure-results"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +18,7 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/register": "^7.10.4",
     "@wdio/cli": "^6.1.24",
+    "allure-commandline": "^2.13.0",
     "chai": "^4.2.0",
     "webdriverio": "^6.1.24"
   },
